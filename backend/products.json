@@ -1,0 +1,222 @@
+[
+  {
+    "codsap": "200111234",
+    "desproducto": "ES TAC SUERO MULTIB 28ML",
+    "desmarca": "ESIKA",
+    "descategoria": "TRATAMIENTO FACIAL",
+    "tipoPiel": "Mixta",
+    "indicacionColorPiel": "Funciona mejor en pieles claras y medias para reducir el enrojecimiento.",
+    "lugar_venta": [
+      {
+        "supermercado": "Wong",
+        "ubicacion": "Miraflores - Av. Pardo y Aliaga",
+        "latitud": -12.101136,
+        "longitud": -77.035296
+      },
+      {
+        "supermercado": "Metro",
+        "ubicacion": "Barranco - Av. Almte. Miguel Grau",
+        "latitud": -12.142645,
+        "longitud": -77.020381
+      }
+    ]
+  },
+  {
+    "codsap": "200107850",
+    "desproducto": "LB CONCE TO SUERO AH TER 30ML",
+    "desmarca": "LBEL",
+    "descategoria": "TRATAMIENTO FACIAL",
+    "tipoPiel": "Grasa",
+    "indicacionColorPiel": "Ideal para pieles oscuras para reducir la apariencia de manchas oscuras.",
+    "lugar_venta": [
+      {
+        "supermercado": "Plaza Vea",
+        "ubicacion": "San Isidro - Av. Javier Prado",
+        "latitud": -12.093975,
+        "longitud": -77.043289
+      },
+      {
+        "supermercado": "Metro",
+        "ubicacion": "Miraflores - Av. 28 de Julio",
+        "latitud": -12.122079,
+        "longitud": -77.027765
+      }
+    ]
+  },
+  {
+    "codsap": "200106488",
+    "desproducto": "CZ SKIN F CR OJOS DETOX 15G",
+    "desmarca": "CYZONE",
+    "descategoria": "TRATAMIENTO FACIAL",
+    "tipoPiel": "Seca",
+    "indicacionColorPiel": "Aporta hidratación profunda, ideal para pieles medias a oscuras.",
+    "lugar_venta": [
+      {
+        "supermercado": "Wong",
+        "ubicacion": "San Isidro - Av. Dos de Mayo",
+        "latitud": -12.094706,
+        "longitud": -77.033736
+      },
+      {
+        "supermercado": "Plaza Vea",
+        "ubicacion": "Miraflores - Av. Benavides",
+        "latitud": -12.124923,
+        "longitud": -77.028928
+      }
+    ]
+  },
+  {
+    "codsap": "200100855",
+    "desproducto": "CZ SKIN F BLOQUEADOR 50 ML",
+    "desmarca": "CYZONE",
+    "descategoria": "TRATAMIENTO FACIAL",
+    "tipoPiel": "Normal",
+    "indicacionColorPiel": "Adecuado para todo tipo de piel, especialmente para evitar el enrojecimiento en pieles claras.",
+    "lugar_venta": [
+      {
+        "supermercado": "Metro",
+        "ubicacion": "Barranco - Av. Almte. Miguel Grau",
+        "latitud": -12.142645,
+        "longitud": -77.020381
+      },
+      {
+        "supermercado": "Plaza Vea",
+        "ubicacion": "San Isidro - Av. Camino Real",
+        "latitud": -12.093133,
+        "longitud": -77.036579
+      }
+    ]
+  },
+  {
+    "codsap": "200105222",
+    "desproducto": "ES TAC NUTR 55+ HIDR REPA 120G",
+    "desmarca": "ESIKA",
+    "descategoria": "TRATAMIENTO FACIAL",
+    "tipoPiel": "Madura",
+    "indicacionColorPiel": "Mejora la elasticidad y reduce la opacidad, ideal para pieles medias a oscuras.",
+    "lugar_venta": [
+      {
+        "supermercado": "Wong",
+        "ubicacion": "Miraflores - Av. Pardo",
+        "latitud": -12.118182,
+        "longitud": -77.030437
+      },
+      {
+        "supermercado": "Plaza Vea",
+        "ubicacion": "San Isidro - Av. Javier Prado",
+        "latitud": -12.093975,
+        "longitud": -77.043289
+      }
+    ]
+  },
+  {
+    "codsap": "200104255",
+    "desproducto": "ES YOU LIVE EDT CC 90 ML",
+    "desmarca": "ESIKA",
+    "descategoria": "FRAGANCIAS",
+    "tipoPiel": "Todo tipo",
+    "indicacionColorPiel": "Fragancia ideal para todo tipo de piel.",
+    "lugar_venta": [
+      {
+        "supermercado": "Metro",
+        "ubicacion": "Barranco - Av. Almte. Miguel Grau",
+        "latitud": -12.142645,
+        "longitud": -77.020381
+      },
+      {
+        "supermercado": "Wong",
+        "ubicacion": "San Isidro - Av. Dos de Mayo",
+        "latitud": -12.094706,
+        "longitud": -77.033736
+      }
+    ]
+  },
+  {
+    "codsap": "200087691",
+    "desproducto": "ES STAR PROT SOL R&C 80 ML",
+    "desmarca": "ESIKA",
+    "descategoria": "TRATAMIENTO CORPORAL",
+    "tipoPiel": "Todo tipo",
+    "indicacionColorPiel": "Protector solar adecuado para todo tipo de piel.",
+    "lugar_venta": [
+      {
+        "supermercado": "Plaza Vea",
+        "ubicacion": "Miraflores - Av. Benavides",
+        "latitud": -12.124923,
+        "longitud": -77.028928
+      },
+      {
+        "supermercado": "Wong",
+        "ubicacion": "San Isidro - Av. Dos de Mayo",
+        "latitud": -12.094706,
+        "longitud": -77.033736
+      }
+    ]
+  },
+  {
+    "codsap": "200101110",
+    "desproducto": "LB NOCTURNE SERUM CC 30ML",
+    "desmarca": "LBEL",
+    "descategoria": "TRATAMIENTO FACIAL",
+    "tipoPiel": "Todo tipo",
+    "indicacionColorPiel": "Recomendado para todo tipo de pieles, en especial para pieles mixtas a grasas.",
+    "lugar_venta": [
+      {
+        "supermercado": "Wong",
+        "ubicacion": "Miraflores - Av. Pardo",
+        "latitud": -12.118182,
+        "longitud": -77.030437
+      },
+      {
+        "supermercado": "Metro",
+        "ubicacion": "San Isidro - Av. Javier Prado",
+        "latitud": -12.093975,
+        "longitud": -77.043289
+      }
+    ]
+  },
+  {
+    "codsap": "200098648",
+    "desproducto": "ES PERFECTBLOCK FACIAL 50ML",
+    "desmarca": "ESIKA",
+    "descategoria": "TRATAMIENTO FACIAL",
+    "tipoPiel": "Todo tipo",
+    "indicacionColorPiel": "Protector solar adecuado para todo tipo de piel, especialmente útil en pieles claras.",
+    "lugar_venta": [
+      {
+        "supermercado": "Plaza Vea",
+        "ubicacion": "Miraflores - Av. 28 de Julio",
+        "latitud": -12.122079,
+        "longitud": -77.027765
+      },
+      {
+        "supermercado": "Wong",
+        "ubicacion": "San Isidro - Av. Pardo y Aliaga",
+        "latitud": -12.101136,
+        "longitud": -77.035296
+      }
+    ]
+  },
+  {
+    "codsap": "200103452",
+    "desproducto": "LB DRY EFFECT ROLL ON CC 50 ML",
+    "desmarca": "LBEL",
+    "descategoria": "CUIDADO PERSONAL",
+    "tipoPiel": "Todo tipo",
+    "indicacionColorPiel": "Desodorante adecuado para pieles sensibles.",
+    "lugar_venta": [
+      {
+        "supermercado": "Metro",
+        "ubicacion": "Barranco - Av. Almte. Miguel Grau",
+        "latitud": -12.142645,
+        "longitud": -77.020381
+      },
+      {
+        "supermercado": "Wong",
+        "ubicacion": "San Isidro - Av. Dos de Mayo",
+        "latitud": -12.094706,
+        "longitud": -77.033736
+      }
+    ]
+  }
+]
