@@ -5,8 +5,11 @@ from openai import OpenAI
 import time
 import json
 import copy
+from fastapi import UploadFile, File
+import joblib
 
 from schemas.bot import BotMessage
+from utils.bot import get_recognition
 
 OPENAI_API_KEY = config('OPENAI_API_KEY')
 ASSISTANT_ID = config('ASSISTANT_ID')
@@ -14,6 +17,8 @@ ASSISTANT_ID = config('ASSISTANT_ID')
 client = OpenAI(
     api_key=OPENAI_API_KEY
 )
+
+model = joblib.load('model_colorimetria.pkl')
 
 router = fastapi.APIRouter(prefix='/bot')
 
@@ -81,4 +86,15 @@ async def create_message(
 
     conversation.append(response_message)
     return parsed_message
-    # return {}
+
+@router.post('/recognition')
+async def create_recognition(
+    image: UploadFile = File(...)
+):
+
+    response = get_recognition(model, image.file)
+
+    return {
+        "status_code": 200,
+        "data": response
+    }
