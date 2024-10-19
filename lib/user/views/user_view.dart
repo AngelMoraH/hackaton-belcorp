@@ -117,7 +117,7 @@ class _UserViewState extends State<UserView> {
                                                     listen: false)
                                                 .login(email, password);
                                             Navigator.pushReplacementNamed(
-                                                context, '/home');
+                                                context, '/recommendation');
                                             ScaffoldMessenger.of(context)
                                                 .showSnackBar(
                                               const SnackBar(

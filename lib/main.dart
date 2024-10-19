@@ -9,7 +9,7 @@ import 'package:provider/provider.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   final cameras = await availableCameras();
-  final firstCamera = cameras.first;
+  final firstCamera = cameras.last;
   runApp(MyApp(camera: firstCamera));
 }
 

@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 
 class RecommendationView extends StatefulWidget {
   final CameraDescription camera;
+
   const RecommendationView({super.key, required this.camera});
 
   @override
@@ -40,7 +41,15 @@ class _RecommendationViewState extends State<RecommendationView> {
         future: _initializeControllerFuture,
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.done) {
-            return CameraPreview(_controller);
+            return Container(
+              decoration: const BoxDecoration(
+                shape: BoxShape.circle,
+              ),
+              clipBehavior: Clip.hardEdge,
+              child: AspectRatio(
+                  aspectRatio: _controller.value.aspectRatio,
+                  child: CameraPreview(_controller)),
+            );
           } else {
             return const Center(child: CircularProgressIndicator());
           }
