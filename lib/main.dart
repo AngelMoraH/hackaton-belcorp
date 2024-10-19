@@ -1,5 +1,6 @@
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
+import 'package:lumea/map/views/map_view.dart';
 import 'package:lumea/recommendation/viewmodels/recommendation_viewmodel.dart';
 import 'package:lumea/recommendation/views/recommendation_view.dart';
 import 'package:lumea/user/viewmodels/user_viewmodel.dart';
@@ -36,6 +37,7 @@ class MyApp extends StatelessWidget {
           '/recommendation': (context) => RecommendationView(
                 camera: camera,
               ),
+          '/map': (context) => const MapView(),
         },
       ),
     );

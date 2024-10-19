@@ -17,7 +17,7 @@ class UserViewModel extends ChangeNotifier {
     notifyListeners();
 
     // Simulación de espera (como si estuvieras llamando a un API)
-    await Future.delayed(Duration(seconds: 2));
+    await Future.delayed(const Duration(seconds: 2));
 
     // Simulamos el éxito de un inicio de sesión con un usuario falso
     _loggedInUser = User(
