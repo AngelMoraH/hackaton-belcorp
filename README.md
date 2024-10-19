@@ -2,15 +2,8 @@
 
 Lumea App
 
-## Getting Started
+## Information
 
-This project is a starting point for a Flutter application.
+This repository contains all the key components of our project: the backend, the Machine Learning model, and the mobile application. The Machine Learning model is designed to analyze a person’s facial features and recommend the most suitable colorimetry, while the mobile application efficiently captures these images. Although we were unable to complete the final integration between these services and the app, each component works independently and has been successfully tested.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Additionally, we have implemented a chatbot powered by OpenAI that recommends beauty and personal care products from Cyzone, Ésika, and L’bel, based on the user’s preferences and tastes. The chatbot interacts naturally with the user and generates personalized suggestions. While the full integration between services could not be finalized within the available time, the development of each system part has been robust and functional. We are confident that, with a bit more time, we could successfully connect all components and fully achieve the project’s goals.
